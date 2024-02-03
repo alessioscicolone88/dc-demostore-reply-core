@@ -39,6 +39,7 @@ import Video                    from '@components/cms-modern/Video';
 
 import { useRouter } from 'next/router';
 import Generic from '@components/stylitics/Generic/Generic';
+import TextWithCta from '../TextWithCta/TextWithCta';
 
 
 
@@ -91,6 +92,7 @@ const ComponentMapping: any = {
     'https://demostore.amplience.com/content/stylitics/gallery'      : Generic,
     'https://demostore.amplience.com/content/stylitics/classic'      : Generic,
     'https://demostore.amplience.com/content/stylitics/main-and-detail'      : Generic,
+    'https://schema-examples.com/text-with-cta'                      : TextWithCta,  
     
 };
 
